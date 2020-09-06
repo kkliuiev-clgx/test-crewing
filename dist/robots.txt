@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Crewing CRM v2.0</title>
+    <base href="/">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <style type="text/css">
+        body, html {
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .app-loading {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 98%;
+            overflow: hidden;
+        }
+
+        .app-loading .logo {
+            height: 100px;
+            width: 100px;
+            background-image: url("assets/img/loading-gears-animation.gif");
+            transform-origin: center center;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+    </style>
+<link rel="stylesheet" href="styles.160bcff91c1f1341f7b3.css"></head>
+<body>
+<app-root>
+    <div class="app-loading">
+        <div class="logo"></div>
+    </div>
+</app-root>
+<script src="runtime-es2015.bdce5f1049de75175a32.js" type="module"></script><script src="runtime-es5.bdce5f1049de75175a32.js" nomodule defer></script><script src="polyfills-es5.a430fb8a5090b0ba8748.js" nomodule defer></script><script src="polyfills-es2015.0ac0e25fccb5491b30e6.js" type="module"></script><script src="scripts.07e99f72d6713a360d1d.js" defer></script><script src="main-es2015.eee5b1a3e650ba4d3e8b.js" type="module"></script><script src="main-es5.eee5b1a3e650ba4d3e8b.js" nomodule defer></script></body>
+</html>
